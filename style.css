@@ -1,0 +1,78 @@
+#heroes{
+    height:400px;
+    background-image: url("pictures/photo\ presentation.jpg");
+    background-size: cover;
+}
+
+body{
+    background-color: aquamarine;
+    font-family:"Revalia"; Arial;
+}
+
+header{
+    text-align: left;
+}
+
+ul{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+ul li{
+    list-style: none;
+}
+
+h1{
+    font-size: 55px;
+    color: white;
+    text-shadow: 1px 1px white;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+table{
+    margin:0 auto;
+    width: 700px;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+h2{
+    text-shadow: 2px 2px white;
+}
+
+td{
+    border: 30px solid white;
+}
+
+th,td{
+border: 10px solid white;
+padding: 20px;
+}
+
+form{
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
