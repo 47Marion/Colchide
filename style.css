@@ -4,6 +4,10 @@
     background-size: cover;
 }
 
+.text-center{
+    text-align: center;
+}
+
 body{
     background-color: aquamarine;
     font-family:"Revalia", Arial;
@@ -75,4 +79,15 @@ form{
     text-align: center;
     justify-content: center;
 }
+
+.rotate img {
+    -webkit-transition:all 0.5s ease;
+    transition: transform 3.5s ease;
+}
+
+.rotate:hover img {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
 
