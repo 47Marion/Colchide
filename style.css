@@ -4,8 +4,15 @@
     background-size: cover;
 }
 
-.text-center{
-    text-align: right;
+.container{
+    position: relative;
+    height: 10px;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
 }
 
 body{
