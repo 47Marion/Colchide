@@ -53,7 +53,7 @@ p{
 
 .flex-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
 }
 
@@ -97,4 +97,23 @@ form{
     transform: rotate(-15deg);
 }
 
+@media screen and (max-width:768px){
+    ul{
+    flex-direction: column;
+    }
+    #heroes{
+        display: none;
+    }
+    .flex-container{
+        /*flex-direction: column;*/
+        flex-wrap: wrap;
+    }
+    .flex-container .rotate {
+        width: 100%;
+        height:auto;
+    }
+    body{
+        background-color: pink;
+    }
+}
 
