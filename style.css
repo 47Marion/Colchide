@@ -1,6 +1,13 @@
 *{
     box-sizing: border-box;
 }
+header .menu li{
+    margin-bottom: 0.5rem;
+}
+
+header .menu li: last-child{
+    margin-bottom: 0;
+}
 
 #heroes{
     height:400px;
