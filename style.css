@@ -1,5 +1,6 @@
 #heroes{
-    height:400px;
+    height: 500px;
+    width: auto;
     background-image: url("pictures/photo\ presentation.jpg");
     background-size: cover;
 }
